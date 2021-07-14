@@ -11,3 +11,5 @@ yarn install
 echo "====== compile the assets part ======="
 cd ../../
 yarn encore dev
+echo "====== run the test ==========="
+$PHP ./vendor/bin/phpunit
