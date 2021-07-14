@@ -40,6 +40,14 @@ public function calculateWithForeach($input) {
     return $res;
 }
 
+public function calc($input) {
+    try {
+        return $this->calculateWithArrayReduce($input);
+    } catch (\Exception $e) {
+        return $e->getMessage();
+    }
+}
+
 /**
  * level1 explode the +
  * level2 explode the -

@@ -24,9 +24,16 @@ REACT_PORT=3000
 docker-compose build
 docker-compose up -d
 ```
-
+#to make all sh be executable
+```bash
+docker-compose exec -T worker chmod -R +x sh/*
+```
 #to install all the dependencies of project
 ```bash
-docker-compose exec -T worker chmod +x sh/prepare.sh
 docker-compose exec -T worker sh/prepare.sh
+```
+
+#to do test
+```bash
+docker-compose exec -T worker sh/test.sh
 ```
