@@ -16,7 +16,7 @@ and you can change those ports , related of witch port you want
 ```
 # DOCKER PORTS
 SERVER_PORT=888
-REACT_PORT=3000
+REACT_PORT=3344
 ```
 
 #to install the docker environment
