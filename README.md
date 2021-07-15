@@ -37,3 +37,5 @@ docker-compose exec -T worker sh/prepare.sh
 ```bash
 docker-compose exec -T worker sh/test.sh
 ```
+
+then the application will be available in http://localhost:888
