@@ -38,4 +38,4 @@ docker-compose exec -T worker sh/prepare.sh
 docker-compose exec -T worker sh/test.sh
 ```
 
-then the application will be available in http://localhost:888
+then the application will be available in http://localhost:888. the port is related to the SERVER_PORT
